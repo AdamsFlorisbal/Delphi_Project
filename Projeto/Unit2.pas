@@ -26,7 +26,7 @@ implementation
 
 procedure TForm2.BitBtn1Click(Sender: TObject);
 begin
-ShowMessage('Meu pauu na sua mão');
+ShowMessage('Olá, ' + Input_Name.Text + ' seja bem vindo!');
 end;
 
 end.
